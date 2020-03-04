@@ -1,0 +1,36 @@
+body {
+    background-color: red;
+}
+
+main {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: green;
+    }
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    body {
+      background-color: saddlebrown;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: yellow;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
